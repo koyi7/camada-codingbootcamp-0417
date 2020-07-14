@@ -1,0 +1,61 @@
+/* reset */
+/* *{outline: 1px solid red;} */
+body{
+    margin: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(1, 0, 0, 0.40), rgba(228, 59, 59, 0.5)), url(./fondihno.jpg);
+}
+input{
+    border: none;
+    border-radius: 10%;
+}
+p{
+    font-size: 30px;
+    font-family: cursive;
+    color:black;
+}
+a{
+    text-decoration: none;
+}
+.link{
+    font-size: 16px;
+    font-family: cursive;
+}
+/* secciones */
+.card{
+    border: solid black 2px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(243, 230, 230, 0.7));
+    margin: 52px;
+    border-radius: 15%;
+}
+.card div{
+    text-align: center;
+    padding: 20px 15px;
+}
+.icon{
+      border: solid white 5px;
+      border-radius: 48%;
+      width: 62%;
+}
+.color{
+    background-color: black;
+    border-radius: 12%;
+}
+
+/* mediaqueries */
+ @media (min-width:1024px){
+    .card{
+        border: solid black 2px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(243, 230, 230, 0.7));
+    margin: 10px 550px 200px 550px;
+    border-radius: 15%;
+    } 
+    .icon{
+        border: solid white 5px;
+        border-radius: 48%;
+        width: 80%;
+        height: 80%;
+  }
+}
